@@ -30,6 +30,7 @@ function App() {
   };
 
  const predictDigit = async () => {
+  try {
     setLoading(true);
     const image = canvasRef.current.toDataURL("image/png");
 
@@ -50,8 +51,12 @@ function App() {
     ]);
 
     drawBoundingBox(data.bbox);
+  } catch (err) {
+    alert("Backend is waking up or offline. Please try again in 30 seconds.");
+  } finally {
     setLoading(false);
-  };
+  }
+};
 
 
   const clamp = (v) => Math.max(0, Math.min(1, v));
