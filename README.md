@@ -1,3 +1,8 @@
+# ✍️ Digit Detector - Handwritten Digit Recognition
+
+🚀 **Live Demo:** 👉 [Click Here to Try](https://madhushreewarke-24.github.io/Digit-Detector/)
+
+---
 # 🧠 Handwritten Digit Object Detection (Full Stack AI)
 
 A full-stack AI web application that detects and classifies handwritten digits using a CNN-based deep learning model built with TensorFlow. The system also predicts the bounding box of the digit using object detection techniques.
