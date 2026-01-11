@@ -39,10 +39,6 @@ A full-stack AI web application that detects and classifies handwritten digits u
 
 ---
 
-##  Project Structure
-
----
-
 ##  How To Run Locally
 
 ### 1️ Backend
@@ -62,13 +58,13 @@ npm run dev
 Frontend will run on:
  http://localhost:5173
 ```
- Screenshots
+ ### Screenshots
 
 <img width="1919" height="905" alt="Screenshot 2026-01-11 200448" src="https://github.com/user-attachments/assets/1d3e9812-b615-4de5-807e-3237c5e8d675" />
 
 <img width="1919" height="906" alt="Screenshot 2026-01-11 200400" src="https://github.com/user-attachments/assets/86354633-5c26-499e-b432-35c53c8b65ca" />
 
-## Model Details
+### Model Details
 
 Dataset: MNIST
 
@@ -80,7 +76,7 @@ Digit class (0–9)
 
 Bounding box (x1, y1, x2, y2)
 
- Use Cases
+ ### Use Cases
 
 Educational AI demos
 
@@ -90,10 +86,4 @@ AI-based drawing recognition
 
 Resume & portfolio project
 
-### Author
 
-Madhushree Warke
-
-Computer Engineering Student
-
-Aspiring AI/ML Engineer
